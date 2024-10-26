@@ -1,0 +1,55 @@
+.card {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+body { 
+  color : white;
+  background-image: url('/src/d8c56a664bc9a28d7e32b01a71884af2.jpg');
+  background-position: center top; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+
+.countContainer {
+  color: red;
+  width: 50px;
+  height: 50px;
+  background-color: #fc2;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+.image {
+  padding: 10px 0;
+}
+
+.image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.noAnyFavorites {
+  margin: 30px;
+  display: flex;
+  font-size: 20px;
+  font-family: cursive;
+  justify-content: center;
+}
